@@ -1,9 +1,13 @@
 #include <bits/stdc++.h>
 //https://www.hackerrank.com/challenges/simple-array-sum/problem
+//CPP14
 using namespace std;
 
 int simpleArraySum(int n, vector <int> ar) {
-    // Complete this function
+    int sum=0;
+    for(int i: ar)
+        sum+=i;
+    return sum;
 }
 
 int main() {
